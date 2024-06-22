@@ -10,7 +10,6 @@ Rails.application.routes.draw do
   get 'chatroom/show'
   get 'chatroom/destroy'
   root 'chatroom#index'
-  get 'root' => 'chatroom#new'
   get 'login' => 'sessions#new'
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
