@@ -7,4 +7,7 @@ class ChatroomController < ApplicationController
 
   def destroy
   end
+
+  def new
+  end
 end
