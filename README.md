@@ -7,15 +7,14 @@ Review this documentation in order to establish a local RoR development environm
   From the command prompt, confirm ruby is installed
   
     `ruby -v`
-  
+
+    `ruby 3.3.1`
+
   Confirm rails is installed
   
     `rails -v`
 
-ruby -v                                 
-ruby 3.3.1 (2024-04-23 revision c56cd86388) [arm64-darwin23]
-rails -v
-Rails 7.1.3.4
+    `Rails 7.1.3.4`
 
 Mac comes with a built in system ruby version (2.6). You will want to install version 3.3.1 for this application to work properly.
 
