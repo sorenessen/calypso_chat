@@ -6,8 +6,11 @@ application up and running.
 * Ruby version
 
   From the command prompt, confirm ruby is installed
+  
     `ruby -v`
+  
   Confirm rails is installed
+  
     `rails -v`
 
 ruby -v                                 
