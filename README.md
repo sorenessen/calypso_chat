@@ -3,14 +3,12 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
-
 * Ruby version
 
   From the command prompt, confirm ruby is installed
-    ruby -v
+    `ruby -v`
   Confirm rails is installed
-    rails -v
+    `rails -v`
 
 ruby -v                                 
 ruby 3.3.1 (2024-04-23 revision c56cd86388) [arm64-darwin23]
