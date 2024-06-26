@@ -1,8 +1,8 @@
 # README
 
-Review this documentation in order to establish a local RoR development environment capable of running the application as localhost:3000.
+### Review this documentation in order to establish a local RoR(Ruby on Rails) development environment capable of running the application as localhost:3000.
 
-* Ruby version
+## Ruby Version
 
   From the command prompt, confirm ruby is installed
   
@@ -10,7 +10,7 @@ Review this documentation in order to establish a local RoR development environm
 
     `ruby 3.3.1`
 
-  Confirm rails is installed
+## Rails Version
   
     `rails -v`
 
@@ -18,7 +18,7 @@ Review this documentation in order to establish a local RoR development environm
 
 Mac comes with a built in system ruby version (2.6). You will want to install version 3.3.1 for this application to work properly.
 
-Tou will need to force the version of ruby we want to use:
+You will need to force the version of ruby we want to use:
 
   `rbenv global 3.3.1`
 
@@ -34,7 +34,7 @@ If Ruby on Rails is not installed, recommed using rbenv. Follow directions in th
 
 After pulling the application code, be sure to run `bundle install` from the application's home directory. This will install and complie the necessary gems for the application to run.
 
-* Database creation
+## Database creation
 
     `rails db:drop` (only if a previous db has been established)
   
@@ -42,11 +42,11 @@ After pulling the application code, be sure to run `bundle install` from the app
   
     `rails db:migrate` (performs the database migration and populates the schema)
 
-* Database initialization
+## Database initialization
   
   `rails db:drop db:create db:migrate` shorhand, performs the actions above in one line.
 
-* How to run the test suite
+## How to run the test suite
 
   Using RSpec. Follow this guide to setup your RSpec enviornment:
 
@@ -57,7 +57,7 @@ After pulling the application code, be sure to run `bundle install` from the app
     `rspec spec` (to run the entire testing suite). You can also specify a particular test by calling the spec .rb file and including the line number: `bundle exec rspec path/to/spec/file.rb:5` This tells RSpec to run a test listed on line 5 of that spec file. For example: `rspec spec/login.rb:3`. This indicates a login test occuring on line 3 of that spec file. If configured correctly, you can see a headful browser spin up and perform the required actions. You can also configure your test suite to run as "headless" which will NOT show the browser actions, but will instead perform the functions behind the scenes (This option is faster for automated testing and would encourage you look into the documentation on how to set this environmental setting).
 
 
-* Services (job queues, cache servers, search engines, etc.)
+## Start the Rails Server
   
     To start the rails server:
 
@@ -65,6 +65,12 @@ After pulling the application code, be sure to run `bundle install` from the app
 
     Then visit: `localhost:3000` in web browser (default address)
 
-* Deployment instructions
+## Start the Rails Console
 
-  # No. You do not get to deploy. :P #
+  In a seperate terminal, you may want to view and edit application data. To start the Rails console so you can interact with the application behind the scenes:
+
+  `rails c`
+
+## Deployment Instructions
+
+  # No. You do not get to deploy. :P
