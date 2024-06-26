@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Review this documentation in order to establish a local RoR development environment capable of running the application as localhost:3000.
 
 * Ruby version
 
